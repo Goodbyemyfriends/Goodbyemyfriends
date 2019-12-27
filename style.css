@@ -6,21 +6,24 @@ body{
 .page {
 	max-width: 1024px;
 	margin: 0 auto;
+	vertical-align: middle;
+	margin-top: 40px;
 }
 
 .page_gauche {
-	background-color: #636e72;
 	width: 30%; 
 	display: inline-block;
 	vertical-align: top;
 }
 
 .page_droite {
-	background-color: white;
+	background-color: #b2bec3;
 	width: 70%;
 	display: inline-block;
 	color: black;
 	vertical-align: top;
+	border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 /* PROFILE */
@@ -29,6 +32,7 @@ body{
  	text-align: center;
  	padding: 20px;
  	background-color: #2d3436;
+ 	border-top-left-radius: 10%;
 }
 
 .profile_photo {
@@ -48,16 +52,17 @@ body{
 /* INFO */
 .info {
     padding: 10px 0;
+    background-color: #636e72;
+    border-bottom-left-radius: 10%;
 }
 
 .info_item {
-    
 }
 
 .info_item_title {
  	font-weight: bold;
  	text-transform: uppercase;
- 	padding: 10px 20px 5px;
+ 	padding: 22px 20px 5px;
  	font-size: 18px;
  	color: white;
 }
@@ -83,7 +88,7 @@ body{
 }
 
 .list-flag li {
-	padding: 10px 0;
+	padding: 5px 0;
 	list-style: none;
 }
 
@@ -94,15 +99,24 @@ body{
 .list_title {
 	font-size: 15px;
 	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.list_content {
+    padding-bottom: 2px;
+}
+
+.list_content li {
+
 }
 
 /* MORE */
 .more {
-     margin: 0 auto;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 .more_item {
-
 }
 
 .more_item_title {
