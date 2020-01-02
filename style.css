@@ -22,8 +22,8 @@ body{
 	display: inline-block;
 	color: black;
 	vertical-align: top;
-	border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* PROFILE */
@@ -32,7 +32,7 @@ body{
  	text-align: center;
  	padding: 20px;
  	background-color: #2d3436;
- 	border-top-left-radius: 10%;
+ 	border-top-left-radius: 20px;
 }
 
 .profile_photo {
@@ -53,7 +53,7 @@ body{
 .info {
     padding: 10px 0;
     background-color: #636e72;
-    border-bottom-left-radius: 10%;
+    border-bottom-left-radius: 20px;
 }
 
 .info_item {
